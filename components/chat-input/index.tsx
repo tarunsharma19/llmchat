@@ -132,13 +132,13 @@ export const ChatInput = () => {
     );
   };
 
-  if (!isReady || !isPreferencesReady) {
-    return (
-      <div className={chatInputBackgroundContainer}>
-        <FullPageLoader label="Initializing chat" />
-      </div>
-    );
-  }
+  // if (!isReady || !isPreferencesReady) {
+  //   return (
+  //     <div className={chatInputBackgroundContainer}>
+  //       <FullPageLoader label="Initializing chat" />
+  //     </div>
+  //   );
+  // }
 
   return (
     <div className={chatInputBackgroundContainer}>
