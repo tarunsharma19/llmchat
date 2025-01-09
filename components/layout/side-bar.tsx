@@ -125,7 +125,8 @@ export const Sidebar = () => {
         </Flex>
 
         {/* {isAllSessionLoading ? (
-          <FullPageLoader />
+          <FullPageLoader /> 
+
         ) : ( */}
           <Flex
             direction="col"

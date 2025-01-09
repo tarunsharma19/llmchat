@@ -138,7 +138,7 @@ export const ChatInput = () => {
   //       <FullPageLoader label="Initializing chat" />
   //     </div>
   //   );
-  // }
+  //}
 
   return (
     <div className={chatInputBackgroundContainer}>
