@@ -124,9 +124,9 @@ export const Sidebar = () => {
           </Button>
         </Flex>
 
-        {isAllSessionLoading ? (
-          <FullPageLoader />
-        ) : (
+        {/* {isAllSessionLoading ? (
+          <FullPageLoader /> 
+        ) : ( */}
           <Flex
             direction="col"
             gap="xl"
@@ -139,7 +139,7 @@ export const Sidebar = () => {
             {renderGroup("Last 30 Days", groupedSessions.last30Days)}
             {renderGroup("Previous Months", groupedSessions.previousMonths)}
           </Flex>
-        )}
+        {/* )} */}
         <Flex
           className="w-full bg-zinc-50 py-3 dark:bg-zinc-900"
           direction="col"

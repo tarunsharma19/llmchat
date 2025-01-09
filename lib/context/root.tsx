@@ -19,9 +19,9 @@ export type RootContextType = {
 export const RootContext = createContext<RootContextType | null>(null);
 
 export const RootProvider = ({ children }: { children: React.ReactNode }) => {
-  useEffect(() => {
-    initHotjar();
-  }, []);
+  // useEffect(() => {
+  //   //initHotjar();
+  // }, []);
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
   const [isMobileSidebarOpen, setIsMobileSidebarOpen] = useState(false);
   const [isCommandSearchOpen, setIsCommandSearchOpen] = useState(false);
