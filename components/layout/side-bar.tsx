@@ -126,6 +126,7 @@ export const Sidebar = () => {
 
         {/* {isAllSessionLoading ? (
           <FullPageLoader /> 
+
         ) : ( */}
           <Flex
             direction="col"
@@ -145,8 +146,8 @@ export const Sidebar = () => {
           direction="col"
           gap="sm"
         >
-          {!user ? (
-            <Button
+          {/* {!user ? ( */}
+            {/* <Button
               size="sm"
               variant="secondary"
               className="w-full gap-2"
@@ -157,15 +158,15 @@ export const Sidebar = () => {
               <LogInIcon size={16} strokeWidth={2} />
               SignIn{" "}
             </Button>
-          ) : (
+          ) : ( */}
             <Flex
               gap="sm"
               items="center"
               className="w-full rounded-lg border border-zinc-500/20 bg-white p-1 dark:bg-zinc-800"
             >
-              <Avvvatars value={user.email || "Anonymous"} size={24} />
+              <Avvvatars value={"user.email"} size={24} />
               <Type size="xs" className="line-clamp-1 flex-grow">
-                {user.email}
+                {"user.email"}
               </Type>
               <Tooltip content="Sign Out">
                 <Button size="icon-xs" variant="ghost" onClick={() => logout()}>
@@ -173,7 +174,7 @@ export const Sidebar = () => {
                 </Button>
               </Tooltip>
             </Flex>
-          )}
+          {/* )} */}
 
           <Flex gap="sm" className="w-full">
             <Button
