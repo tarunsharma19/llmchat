@@ -159,7 +159,7 @@ export const Sidebar = () => {
               SignIn{" "}
             </Button>
           ) : ( */}
-            <Flex
+            {/* <Flex
               gap="sm"
               items="center"
               className="w-full rounded-lg border border-zinc-500/20 bg-white p-1 dark:bg-zinc-800"
@@ -173,7 +173,7 @@ export const Sidebar = () => {
                   <LogOut size={14} strokeWidth={2} />
                 </Button>
               </Tooltip>
-            </Flex>
+            </Flex> */}
           {/* )} */}
 
           <Flex gap="sm" className="w-full">

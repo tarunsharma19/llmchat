@@ -16,36 +16,36 @@ import { ThemeProvider } from "next-themes";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "LLMChat - Your Ultimate AI Chat Experience",
-  description: "Chat with top LLMs in a minimal, privacy-focused UI.",
+  title: "Ryuki App - Democratizing AI Inference for Everyone",
+  description: "The first decentralized marketplace that transforms idle AI API credits into a liquid, tradable asset class.",
   keywords:
-    "AI chat, LLM, language models, privacy, minimal UI, ollama, chatgpt",
-  authors: [{ name: "Trendy design", url: "https://trendy.design" }],
-  creator: "Trendy design",
-  publisher: "Trendy design",
+    "AI chat, LLM, language models, privacy, minimal UI, ryuki, chatgpt",
+  authors: [{ name: "Ryuki", url: "https://ryuki.io" }],
+  creator: "Ryuki",
+  publisher: "Ryuki",
   openGraph: {
-    title: "LLMChat - Your Ultimate AI Chat Experience",
-    siteName: "llmchat.co",
-    description: "Chat with top LLMs in a minimal, privacy-focused UI.",
-    url: "https://llmchat.co",
+    title: "Ryuki App - Democratizing AI Inference for Everyone",
+    siteName: "app.ryuki.io",
+    description: "The first decentralized marketplace that transforms idle AI API credits into a liquid, tradable asset class.",
+    url: "https://ryuki.io",
     type: "website",
     locale: "en_US",
-    images: [
-      {
-        url: "https://llmchat.co/og-image.jpg",
-        width: 1200,
-        height: 630,
-        alt: "LLMChat Preview",
-      },
-    ],
+    // images: [
+    //   {
+    //     url: "https://ryuki.io/og-image.jpg",
+    //     width: 1200,
+    //     height: 630,
+    //     alt: "LLMChat Preview",
+    //   },
+    // ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "LLMChat - Your Ultimate AI Chat Experience",
-    site: "llmchat.co",
-    creator: "@llmchat_co",
-    description: "Chat with top LLMs in a minimal, privacy-focused UI.",
-    images: ["https://llmchat.co/twitter-image.jpg"],
+    title: "Ryuki App - Democratizing AI Inference for Everyone",
+    site: "app.ryuki.io",
+    creator: "@ryukiHQ",
+    description: "decentralized marketplace that transforms idle AI API credits into a liquid, tradable asset class.",
+    // images: ["https://ryuki.io/twitter-image.jpg"],
   },
   robots: {
     index: true,
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://llmchat.co",
+    canonical: "https://ryuki.io",
   },
 };
 
@@ -85,7 +85,7 @@ export default function ParentLayout({
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <script
           defer
-          data-domain="llmchat.co"
+          data-domain="ryuki.io"
           src="https://plausible.io/js/script.tagged-events.js"
         ></script>
       </head>
