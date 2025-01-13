@@ -149,7 +149,7 @@ export const WelcomeMessage = () => {
                 <Button size="md" variant="default" onClick={handleClose}>
                   Start Chatting <ArrowRight size={16} />
                 </Button>
-                <Button
+                {/* <Button
                   size="md"
                   variant="bordered"
                   onClick={() =>
@@ -157,7 +157,7 @@ export const WelcomeMessage = () => {
                   }
                 >
                   <FaGithub size={16} /> Github Repo
-                </Button>
+                </Button> */}
               </Flex>
             </Flex>
           </div>
