@@ -29,7 +29,7 @@ export const models: TModelItem[] = [
   ...(process.env.NEXT_PUBLIC_ENABLE_AUTH === "true"
     ? ([
         {
-          name: "LLMChat",
+          name: "Ryuki",
           key: "llmchat",
           isFree: true,
           isSignUpRequired: true,
